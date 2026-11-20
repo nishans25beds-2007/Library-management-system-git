@@ -1,4 +1,32 @@
+LIBRARY MANAGEMENT SYSYTEM
+
+
+1. Project introduction
+A Library Management System is a computer-based application used to manage the activities of a library.
+In a normal library, maintaining book records manually can be difficult. Finding a book, checking its availability and managing issued books takes time.
+Our project solves this problem using the C programming language.
+
+Main objectives:
+1.	Store book details.
+2.	Display all available books.
+3.	Search for a particular book.
+4.	Issue books to students.
+5.	Return issued books.
+6.	Track whether a book is available or issued.
+
+What is the purpose of each file?
+File	Purpose
+main.c     	Main menu and program execution
+library.h	Structure and function declarations
+add_book.c	Adding books
+display_book.c	Displaying books
+search_book.c	Searching books
+issue_book.c	Issuing and returning books
+README.md	Project explanation
+
+
 1. Objective of the project
+   
 The main objective is to develop a simple Library Management System that helps manage book records.
 
 The system allows users to:
