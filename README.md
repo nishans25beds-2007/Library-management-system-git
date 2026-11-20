@@ -44,3 +44,38 @@ We implemented a menu-driven program using:
 - do-while loop to display the menu repeatedly.
 - switch-case to select different operations.
 - Function calls to execute the selected operation.
+
+- 3. Project file structure
+We created four files inside the project folder.
+LibraryManagementSystem
+
+main.c
+
+Contains the main function, menu and switch-case statements.
+library.c
+
+Contains the implementation of add, display, search, issue and return functions.
+library.h
+
+Contains the Book structure, MAX_BOOKS definition and function declarations.
+README.md
+
+Contains project description, features, technologies and compilation instructions.
+
+
+4. Explanation of the program
+A. main.c – Main program
+This file controls the entire application.
+
+We implemented a menu-driven program using:
+- do-while loop to display the menu repeatedly.
+- switch-case to select different operations.
+- Function calls to execute the selected operation.
+The menu contains six options:
+Choice	Function
+1	Add Book
+2	Display Books
+3	Search Book
+4	Issue Book
+5	Return Book
+6	Exit
